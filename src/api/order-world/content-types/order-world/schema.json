@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_worlds",
+  "info": {
+    "singularName": "order-world",
+    "pluralName": "order-worlds",
+    "displayName": "order_world",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "product": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "full_name": {
+      "type": "string",
+      "required": true
+    },
+    "full_shipping_address": {
+      "type": "string",
+      "required": true
+    },
+    "State_Province_zip_code": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

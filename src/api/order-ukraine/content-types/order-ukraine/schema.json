@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_ukraines",
+  "info": {
+    "singularName": "order-ukraine",
+    "pluralName": "order-ukraines",
+    "displayName": "order_ukraine",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "product": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "full_name": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
